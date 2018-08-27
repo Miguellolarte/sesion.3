@@ -1,0 +1,33 @@
+/*------Estilos para las listas-----*/
+li{
+	/*Permite quitar las viñetas*/
+	list-style-type: none;
+	/*Quitar margenes*/
+	margin: 0px;
+	padding: 0px;
+	/*Especificamos borde primero el ancho del borde, segun el estilo y tercero el color*/
+	border:  1px solid #ccc;
+	/*Ancho de la lista*/
+	width: 130px;
+	
+
+}	
+/*------Estilos para las listas-----*/
+a{
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	font-size: 19px;
+	/*ONVERTIN EN BLOQUE*/
+	display: block;
+	padding: 6px;
+	border: 1px solid #ccc;
+	background-color: #EAEAEA;
+	color: #000;
+}
+/*ESTILO PARA EL ENLACE PARA LA PESEUDOCLASE HOVER*/
+a:hover{
+	color: #00F;
+	background-color: cyan;
+	border-right-width: 5px; 
+	border-right-color: red;
+}

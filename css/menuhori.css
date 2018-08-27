@@ -1,0 +1,37 @@
+ul{
+	list-style-type: none;
+	margin: 0px; 
+	padding:  0px;
+	border: 1px solid #FFF;
+	background-color: #EAEAEA ;
+	text-align: center;
+
+
+}
+li{
+	/*Cada item se debe visualizar en linea uno al lado del otro pero debe permitir que puedan ser tratados como un bloque*/
+	display: inline-block;	
+	
+
+}
+a{
+	font-family: 'Playfair Display', serif;
+	text-decoration: none;
+	font-size: 19px;
+	/*ONVERTIN EN BLOQUE*/
+	display: block;
+	padding: 6px;
+	border: 1px solid #ccc;
+	background-color: #EAEAEA;
+	color: #000;
+}
+a:hover{
+	color: #00F;
+	background-color: cyan;
+	border-bottom-width: 5px; 
+	border-bottom-color: red;
+}
+.uno{
+	color: #801919;
+}
+
